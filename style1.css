@@ -1,0 +1,82 @@
+*
+        /* Reset some default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #FF5733; /* Add border to the container */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+}
+
+/* Style the cards */
+.card {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #6b5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+
+/* Style card headings */
+.card h2 {
+    color: #8B0000;
+}
+
+/* Style card content */
+.card p {
+    color: #555;
+}
+h1 {
+    color: #333;
+}
+
+/* Style the card rows */
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+/* Style the cards */
+.card {
+    flex-basis: calc(50% - 10px); /* Adjust width and add margin between cards */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Style card headings */
+.card h2 {
+    color: #F0E68C;
+}
+
+/* Style card content */
+.card p {
+    color: #555;
+}
+.heading{
+    background-color: #007bff;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 15px;
+   
+}
